@@ -1,0 +1,18 @@
+# Basic Network Sniffer - Requirements
+# Developed by: Saqib Raheem Khan | ARCH Technologies
+#
+# This project uses ONLY Python Standard Library modules.
+# No third-party packages are required.
+#
+# Standard Library modules used:
+#   - socket      : Raw socket creation & packet capture
+#   - struct      : Binary data unpacking (packet headers)
+#   - textwrap    : Payload text formatting
+#   - argparse    : Command-line argument parsing
+#   - datetime    : Timestamps
+#   - sys         : System exit & platform info
+#   - os          : OS-level operations
+#   - signal      : Graceful interrupt handling (Ctrl+C)
+#
+# Python version required: >= 3.6
+# Operating System       : Linux (AF_PACKET socket required)
